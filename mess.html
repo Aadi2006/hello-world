@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Messing around
+	</title>
+</head>
+<body>
+	<h1>Hey, what's up?</h1>
+	<form method="POST">
+		{{ name_form.hidden_tag() }}
+		{{ name_form.name.label }}
+		{{ name_form.name() }}<br>
+		{{ name_form.age.label }}
+		{{ name_form.age() }}<br>
+		{{ name_form.submit() }}
+	</form>
+</body>
+</html>
